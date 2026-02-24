@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- EDIT: Update title, description, and OG tags for each article -->
+    <title>What I've Learned Producing Virtual Events – Luke Westlake</title>
+    <meta name="description" content="A look at the biggest lessons from running high-stakes virtual events for global corporate clients.">
+
+    <meta property="og:title" content="What I've Learned Producing Virtual Events – Luke Westlake">
+    <meta property="og:description" content="A look at the biggest lessons from running high-stakes virtual events for global corporate clients.">
+    <meta property="og:image" content="https://lukewestlake.com/LukeSocialCard.jpg">
+    <!-- EDIT: Update URL to match the actual filename -->
+    <meta property="og:url" content="https://lukewestlake.com/articles/template.html">
+    <meta property="og:type" content="article">
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="LukeWestlake" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'synth-dark': '#0f0f1a',
+                        'synth-darker': '#0a0a14',
+                        'synth-purple': '#241b30',
+                        'neon-cyan': '#00fbfd',
+                        'neon-pink': '#ff52c2',
+                        'neon-purple': '#8c1eff',
+                        'sunset-orange': '#ff901f',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'neon': '0 0 20px rgba(0, 251, 253, 0.6)',
+                        'neon-pink': '0 0 20px rgba(255, 82, 194, 0.6)',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        h1 { text-shadow: 0 0 15px rgba(0, 251, 253, 0.5); }
+
+        /* Article body typography */
+        .article-body h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #00fbfd;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .article-body h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #ff52c2;
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+        }
+        .article-body p {
+            margin-bottom: 1.25rem;
+            line-height: 1.8;
+            color: #d1d5db;
+        }
+        .article-body ul, .article-body ol {
+            margin-bottom: 1.25rem;
+            padding-left: 1.5rem;
+            color: #d1d5db;
+        }
+        .article-body li {
+            margin-bottom: 0.5rem;
+            line-height: 1.7;
+        }
+        .article-body ul li { list-style-type: disc; }
+        .article-body ol li { list-style-type: decimal; }
+        .article-body strong { color: #ffffff; font-weight: 600; }
+        .article-body a { color: #00fbfd; text-decoration: underline; }
+        .article-body a:hover { color: #ff52c2; }
+        .article-body blockquote {
+            border-left: 4px solid #00fbfd;
+            padding-left: 1.25rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #9ca3af;
+        }
+        .article-body hr {
+            border-color: rgba(0, 251, 253, 0.2);
+            margin: 2.5rem 0;
+        }
+    </style>
+</head>
+<body class="bg-synth-dark text-gray-100 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-synth-darker/80 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-neon-cyan/20">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-3xl font-black text-neon-cyan tracking-wider hover:text-neon-pink transition">LUKE WESTLAKE</a>
+            <div class="space-x-8 hidden md:block">
+                <a href="/#about" class="hover:text-neon-cyan transition">About</a>
+                <a href="/#experience" class="hover:text-neon-cyan transition">Experience</a>
+                <a href="/#skills" class="hover:text-neon-cyan transition">Skills</a>
+                <a href="/#tractus" class="hover:text-neon-cyan transition">Tractus</a>
+                <a href="/#contact" class="hover:text-neon-cyan transition">Contact</a>
+                <a href="/articles/" class="text-neon-cyan font-semibold transition">Articles</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Article Header -->
+    <header class="py-16 bg-synth-purple/30 border-b border-neon-cyan/10">
+        <div class="max-w-3xl mx-auto px-6">
+            <!-- Back link -->
+            <a href="/articles/" class="inline-flex items-center text-sm text-gray-400 hover:text-neon-cyan transition mb-8 group">
+                <span class="mr-2 group-hover:-translate-x-1 transition-transform">←</span> All Articles
+            </a>
+
+            <!-- EDIT: Update these for each article -->
+            <h1 class="text-4xl md:text-5xl font-black text-white leading-tight mb-6">
+                What I've Learned Producing Virtual Events
+            </h1>
+
+            <div class="flex items-center gap-4 text-sm text-gray-400">
+                <!-- EDIT: Update date and datetime -->
+                <time datetime="2026-02-24">February 24, 2026</time>
+                <span class="text-neon-cyan/40">•</span>
+                <!-- EDIT: Update reading time -->
+                <span>5 min read</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Article Body -->
+    <main class="py-16">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="article-body">
+
+                <!-- EDIT: Replace everything below with your article content -->
+
+                <p>
+                    After years of running audio boards at festivals, managing tours, and troubleshooting every kind of live production crisis imaginable, I thought I'd seen it all. Then the world went virtual in 2020, and I realized I had a lot to learn.
+                </p>
+
+                <p>
+                    Here's what four years of producing high-stakes virtual events for financial institutions, insurance companies, and global corporates has taught me.
+                </p>
+
+                <h2>The technical and the human are inseparable</h2>
+
+                <p>
+                    In live audio, the gear is everything. A great desk, great speakers, great cables — if it works technically, the show works. Virtual events are different. You can have a flawless technical setup and still have a bad event because someone didn't rehearse, or the client didn't fully communicate their vision, or the presenter panics the moment their slide deck isn't advancing.
+                </p>
+
+                <p>
+                    The best virtual event producers are part engineer, part therapist, part stage manager. You're solving technical problems <em>and</em> calming nervous executives simultaneously, often on the same call.
+                </p>
+
+                <h2>Redundancy isn't paranoia — it's professionalism</h2>
+
+                <p>
+                    Every experienced live production person knows to carry spares. In virtual events, that principle goes deeper. I now build redundancy into:
+                </p>
+
+                <ul>
+                    <li>Internet connections (primary wired + mobile backup)</li>
+                    <li>Streaming encoders (vMix on primary machine, backup encode ready)</li>
+                    <li>Audio paths (hardware and software fallback)</li>
+                    <li>Communication channels (Teams, Zoom, phone — never just one)</li>
+                </ul>
+
+                <p>
+                    A client once asked me why I brought "so much gear" for what they assumed was a simple webinar. An hour into the event, their office internet went down. We switched to mobile within ninety seconds. They've been clients ever since.
+                </p>
+
+                <h2>The pre-show is the show</h2>
+
+                <blockquote>
+                    The event isn't the event — the preparation is.
+                </blockquote>
+
+                <p>
+                    Every smooth virtual event I've produced was smooth because of what happened in the two weeks before it. Thorough run-of-show documents, technical rehearsals with every presenter, platform check-ins, and a dry run the day before. Events that feel effortless to audiences are usually the result of intense preparation behind the scenes.
+                </p>
+
+                <hr>
+
+                <p>
+                    Virtual events aren't going away, and neither are the lessons that live production taught me about serving clients under pressure. The technology changes; the fundamentals don't.
+                </p>
+
+                <!-- End of article content -->
+
+            </div>
+
+            <!-- Author / Back to articles -->
+            <div class="mt-16 pt-8 border-t border-neon-cyan/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+                <div>
+                    <p class="text-sm text-gray-400 mb-1">Written by</p>
+                    <p class="font-bold text-white">Luke Westlake</p>
+                    <p class="text-sm text-gray-400">Senior Producer, Tractus Events</p>
+                </div>
+                <a href="/articles/" class="inline-flex items-center text-neon-cyan font-semibold hover:text-neon-pink transition group">
+                    <span class="mr-2 group-hover:-translate-x-1 transition-transform">←</span> Back to all articles
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 border-t border-neon-cyan/20 mt-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-500">
+            <p>© 2026 Luke Westlake. All rights reserved.</p>
+            <p class="mt-2">Built with passion for sound, streams, and synthwave.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

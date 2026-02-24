@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Articles – Luke Westlake</title>
+    <meta name="description" content="Writing on virtual events, livestream production, and lessons from 30+ years in live production.">
+
+    <meta property="og:title" content="Articles – Luke Westlake">
+    <meta property="og:description" content="Writing on virtual events, livestream production, and lessons from 30+ years in live production.">
+    <meta property="og:image" content="https://lukewestlake.com/LukeSocialCard.jpg">
+    <meta property="og:url" content="https://lukewestlake.com/articles/">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="LukeWestlake" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'synth-dark': '#0f0f1a',
+                        'synth-darker': '#0a0a14',
+                        'synth-purple': '#241b30',
+                        'neon-cyan': '#00fbfd',
+                        'neon-pink': '#ff52c2',
+                        'neon-purple': '#8c1eff',
+                        'sunset-orange': '#ff901f',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'neon': '0 0 20px rgba(0, 251, 253, 0.6)',
+                        'neon-pink': '0 0 20px rgba(255, 82, 194, 0.6)',
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        h1, h2 { text-shadow: 0 0 15px rgba(0, 251, 253, 0.5); }
+    </style>
+</head>
+<body class="bg-synth-dark text-gray-100 font-sans antialiased">
+
+    <!-- Navbar -->
+    <nav class="bg-synth-darker/80 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-neon-cyan/20">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="text-3xl font-black text-neon-cyan tracking-wider hover:text-neon-pink transition">LUKE WESTLAKE</a>
+            <div class="space-x-8 hidden md:block">
+                <a href="/#about" class="hover:text-neon-cyan transition">About</a>
+                <a href="/#experience" class="hover:text-neon-cyan transition">Experience</a>
+                <a href="/#skills" class="hover:text-neon-cyan transition">Skills</a>
+                <a href="/#tractus" class="hover:text-neon-cyan transition">Tractus</a>
+                <a href="/#contact" class="hover:text-neon-cyan transition">Contact</a>
+                <a href="/articles/" class="text-neon-cyan font-semibold transition">Articles</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="py-20 bg-synth-purple/30 border-b border-neon-cyan/10">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h1 class="text-6xl font-black text-neon-cyan mb-4">Articles</h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto">Writing on virtual events, livestream production, and lessons from 30+ years in live production.</p>
+        </div>
+    </section>
+
+    <!-- Article List -->
+    <main class="py-16">
+        <div class="max-w-4xl mx-auto px-6 space-y-6">
+
+            <!-- Article Card — duplicate this block for each new article -->
+            <article class="bg-synth-darker/50 rounded-xl border border-neon-cyan/30 p-8 hover:border-neon-cyan hover:shadow-neon transition group">
+                <a href="/articles/template.html" class="block">
+                    <div class="flex items-center gap-4 mb-3 text-sm text-gray-400">
+                        <time datetime="2026-02-24">February 24, 2026</time>
+                        <span class="text-neon-cyan/40">•</span>
+                        <span>5 min read</span>
+                    </div>
+                    <h2 class="text-2xl font-bold text-white mb-3 group-hover:text-neon-cyan transition" style="text-shadow: none;">
+                        Sample Article: What I've Learned Producing Virtual Events
+                    </h2>
+                    <p class="text-gray-400 leading-relaxed mb-4">
+                        A look at the biggest lessons from running high-stakes virtual events for global corporate clients — from the technical to the human side of production.
+                    </p>
+                    <span class="text-neon-cyan font-semibold text-sm group-hover:text-neon-pink transition">Read article →</span>
+                </a>
+            </article>
+
+            <!-- Add more article cards above this comment -->
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 border-t border-neon-cyan/20 mt-16">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-500">
+            <p>© 2026 Luke Westlake. All rights reserved.</p>
+            <p class="mt-2">Built with passion for sound, streams, and synthwave.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
